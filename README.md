@@ -26,6 +26,7 @@ The project incorporates a wide range of cybersecurity tools and concepts:
 ### **Stage 4: Directory Brute-Forcing with Gobuster**
 - **Objective**: Discover hidden paths on a web server.
 - **Task**: Use **Gobuster** to brute-force directories and files on the server. One of the discovered pages will contain a `Client Random` value needed for the next step.
+- **GitHub Link of the website**: https://github.com/eliel-monfort/CTF-Website.git
 ### **Stage 5: TLS Decryption**
 - **Objective**: Decrypt a TLS-encrypted session using the captured data and the provided key.
 - **Task**: Use **Wireshark** to analyze the decrypted session. Apply filters to locate the username and password hidden in the encrypted data.
